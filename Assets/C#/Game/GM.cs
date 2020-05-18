@@ -13,7 +13,7 @@ public class GM : MonoBehaviour
     {
         InvokeRepeating("CreateEnemy", CreatTime, CreatTime);
     }
-    void CreatEnemy()
+    void CreateEnemy()
     {
         //生成位置Random
         Vector3 pos = new Vector3(Random.Range(-1f,2.5f), transform.position.y, transform.position.z);
